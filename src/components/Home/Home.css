@@ -1,0 +1,25 @@
+.page{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    background-color: forestgreen;
+}
+.innerPage {
+    display: grid;
+    grid-row: 2/12;
+    grid-column: 2/12;
+    background-color: white;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.header {
+    display: grid;
+    grid-row: 2/4;
+    grid-column: 2/12;
+}
+.body {
+    display: grid;
+    grid-row: 5/12;
+    grid-column: 2/12;
+}
